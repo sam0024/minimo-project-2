@@ -1,0 +1,258 @@
+/*common css start*/
+body {
+	margin: 0;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+    color: #626262
+}
+/*common css end*/
+/*header start*/
+header {
+	padding: 30px 0;
+}
+.container {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+}
+.logo {
+	margin-top: 7px;
+	float: left;
+	width: 13%;
+}
+.logo a {
+	display: block;
+}
+.logo a img {
+}
+.menu {
+	float: right;
+	width: 65%;
+}
+.menu ul {
+	float: right;	
+	list-style: none;
+}
+.menu ul li {
+	float: left;
+}
+.menu ul li a {
+	display: inline-block;
+	margin: 0 50px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a {
+	margin-right: 0;
+}
+.menu ul li a:hover {
+	border-bottom: 1px solid #626262;
+} 
+/*header end*/
+/*banner start*/
+.b_img img {
+	width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect {
+	padding: 100px 0 100px;
+}
+.container2 {
+	margin: 0 auto;
+	width: 80%;
+	border: 1 px solid;
+}
+.p_content {}
+.c_light {
+	margin: 0;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.c_title {
+	margin: 25px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_p {
+	margin: 0;
+	line-height: 24px;
+}
+.c_link {
+	margin-top: 40px;
+	display: block;
+	color: #626262;
+	text-decoration: none;
+}
+/*perfect end*/
+/*lifestyle start*/
+.c_lstyle{
+	overflow: hidden;
+}
+.ls{
+	margin-right: 129px;
+    width: 44%;
+    float: left;
+    margin-bottom: 110px;
+}
+.l_image img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.ls:nth-child(even){
+	margin-right: 0;
+}
+.p_light{
+	margin: 0;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.h_text{
+	margin: 15px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.p_text{
+	margin: 0;
+	line-height: 24px;
+}
+/*lifestyle end*/
+/*news start*/
+.news{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+	margin-bottom: 130px;
+}
+.signup {
+	text-align: center;
+}
+.s_h1 {
+	color: #262626;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form {
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+}
+.s_form input {
+	font-family: "Playfair Display", serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus {
+	outline: 0;
+}
+.s_form button {
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus {
+	outline: 0;
+}
+/*news end*/
+/*load start*/
+.load {
+	padding: 70px 0;
+}
+.container3 {
+	text-align: center;
+	margin-bottom: 125px;
+}
+.container3 button{
+	padding: 18px 42px;
+	font-family: "Playfair Display", serif;;
+	font-size: 26px;
+	font-weight: 300;
+	color: #626262;
+	background: transparent;
+	border: none;
+	border: 1px solid #626262;
+	transition: .4s;
+	cursor: pointer;
+}
+.container3 button:hover{
+	color: white;
+	background-color: #626262;
+	border: 1px solid white;
+}
+/*load end*/
+/*footer start*/
+footer{
+	background-color: #f0f0f0;
+	height: 100px;
+}
+.footer_menu{
+	width: 30%;
+	float: left;
+	margin-top: 23px;
+}
+.footer_menu ul{
+	float: left;
+	padding: 0;
+}
+.footer_menu ul li{
+	float: left;
+	list-style: none;
+}
+.footer_menu ul li a{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	margin-right: 30px;
+	border-bottom: 1px solid transparent;
+	transition: .4s;
+}
+.footer_menu ul li a:hover{
+	border-bottom: 1px solid #000000;
+}
+.footer_menu ul li:last-child a{
+	margin-right: 0;
+}
+.icons{
+	width: 20%;
+	float: right;
+	margin-top: 23px;
+}
+.icons ul{
+	float: right;
+}
+.icons ul li{
+	color: #000000;
+	list-style: none;
+	float: left;
+	margin-right: 8px;
+}
+.icons ul li a{
+	width: 20%;
+	color: #626262;
+    display: inline-block;
+    float: left;
+    margin: 0 10px;
+}
+.icons ul li a:hover{
+	color: #000000;
+}
+.icons ul li:last-child a{
+	margin-right: 0;
+}
+/*footer end*/
