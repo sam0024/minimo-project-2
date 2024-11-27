@@ -43,6 +43,7 @@ header {
 	text-decoration: none;
 	text-transform: uppercase;
 	border-bottom: 1px solid transparent;
+	transition: .33s;
 }
 .menu ul li:last-child a {
 	margin-right: 0;
@@ -201,6 +202,7 @@ footer{
 	font-weight: 500;
 	text-decoration: none;
 	border-bottom: 1px solid transparent;
+	transition: .33s;
 }
 .pages ul li:first-child a {
 	margin-left: 0;
