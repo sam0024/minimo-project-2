@@ -1,6 +1,5 @@
 /*common css start*/
 body {
-	margin: 0;
 	font-family: "Playfair Display", serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -59,10 +58,11 @@ header {
 /*banner end*/
 /*perfect start*/
 .perfect {
-	padding: 100px 0 100px;
+	padding: 100px 0 40px;
 }
 .container2 {
 	margin: 0 auto;
+	overflow: hidden;
 	width: 80%;
 	border: 1 px solid;
 }
@@ -90,41 +90,27 @@ header {
 	text-decoration: none;
 }
 /*perfect end*/
-/*lifestyle start*/
-.c_lstyle{
-	overflow: hidden;
+/*blog start*/
+.blog {
+	padding: 0 0 100px;
 }
-.ls{
-	margin-right: 129px;
-    width: 44%;
-    float: left;
-    margin-bottom: 110px;
+.sb_item {
+	margin-top: 60px;
+	float: left;
+	box-sizing: border-box;
+	width: 47%;
 }
-.l_image img{
+.sb_item:nth-child(even){
+	margin-left: 6%;
+}
+.sb_img {
+	margin-bottom: 25px;
+}
+.sb_img img {
 	width: 100%;
-	margin-bottom: 30px;
 }
-.ls:nth-child(even){
-	margin-right: 0;
-}
-.p_light{
-	margin: 0;
-	font-family: "Ubuntu", sans-serif;
-	font-size: 16px;
-	font-weight: 300;
-	text-transform: uppercase;
-}
-.h_text{
-	margin: 15px 0 25px;
-	font-size: 30px;
-	font-weight: 400;
-}
-.p_text{
-	margin: 0;
-	line-height: 24px;
-}
-/*lifestyle end*/
-/*news start*/
+/*blog end*/
+/*newsletter start*/
 .news{
 	background-color: #f0f0f0;
 	padding: 70px 0;
@@ -169,90 +155,90 @@ header {
 .s_form button:focus {
 	outline: 0;
 }
-/*news end*/
-/*load start*/
+/*newsletter end*/
+/*blog2 start*/
 .load {
-	padding: 70px 0;
-}
-.container3 {
 	text-align: center;
-	margin-bottom: 125px;
+	padding: 180px 0 100px 0;
 }
-.container3 button{
-	padding: 18px 42px;
-	font-family: "Playfair Display", serif;;
-	font-size: 26px;
-	font-weight: 300;
-	color: #626262;
-	background: transparent;
-	border: none;
+.load button {
+	width: 165px;
+	height: 60px;
+	background-color: white;
 	border: 1px solid #626262;
-	transition: .4s;
-	cursor: pointer;
+	font-family: "Playfair Display", serif;
+	font-size: 20px;
+	font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+    transition: .33s linear;
 }
-.container3 button:hover{
-	color: white;
+.load button:hover {
 	background-color: #626262;
-	border: 1px solid white;
+	color: white;
 }
-/*load end*/
+/*blog2 end*/
 /*footer start*/
 footer{
-	background-color: #f0f0f0;
-	height: 100px;
+    background-color: #f0f0f0;
+    min-height: 80px;
 }
-.footer_menu{
+.pages {
+	float: left;
 	width: 30%;
-	float: left;
-	margin-top: 23px;
 }
-.footer_menu ul{
-	float: left;
-	padding: 0;
-}
-.footer_menu ul li{
-	float: left;
+.pages ul {
+	float: left;	
 	list-style: none;
 }
-.footer_menu ul li a{
+.pages ul li {
+	float: left;
+}
+.pages ul li a {
+	display: inline-block;
+	margin: 40px 10px;
 	color: #000000;
+	font-weight: 500;
 	text-decoration: none;
-	display: block;
-	margin-right: 30px;
 	border-bottom: 1px solid transparent;
-	transition: .4s;
 }
-.footer_menu ul li a:hover{
+.pages ul li:first-child a {
+	margin-left: 0;
+}
+.pages ul li a:hover {
 	border-bottom: 1px solid #000000;
-}
-.footer_menu ul li:last-child a{
-	margin-right: 0;
-}
-.icons{
+} 
+.social {
+	display: flex;
+	float: right;
 	width: 20%;
-	float: right;
-	margin-top: 23px;
 }
-.icons ul{
-	float: right;
+.social ul {
+    display: flex;
 }
-.icons ul li{
-	color: #000000;
+.social ul li {
 	list-style: none;
-	float: left;
-	margin-right: 8px;
 }
-.icons ul li a{
-	width: 20%;
-	color: #626262;
-    display: inline-block;
-    float: left;
-    margin: 0 10px;
+.icon {
+	margin: 40px 10px 0 0;
 }
-.icons ul li a:hover{
+.social ul li span {
 	color: #000000;
+	font-weight: 500;
+	text-decoration: none;
 }
-.icons ul li:last-child a{
+.social ul li a {
+	display: inline-block;
+	float: left;
+	margin: 42px 10px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.social ul li:last-child a {
 	margin-right: 0;
+}
+.social ul li a img {
+	display: inline;
+	width: 100%;
 }
 /*footer end*/
